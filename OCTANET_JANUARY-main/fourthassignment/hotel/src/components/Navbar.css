@@ -1,0 +1,256 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* navbar */
+
+#navbar-menuu ul li a {
+    background-color: #333333;
+    text-align: center;
+    padding: 10px;
+    margin-left: -10px;
+    color: #f4f4f4;
+}
+
+.navbar{
+    background-color:#333333 ;
+}
+
+.container{
+    margin: auto;
+    max-width: 100px;
+    overflow: auto;
+    padding: 0 20px;
+}
+
+.container a h3{
+    color: #f4f4f4;
+    font-size: larger;
+    cursor: pointer;
+}
+
+.home span{
+    padding-right: 40px;
+    color:  #f7c18b;
+}
+
+.about{
+    padding-right: 40px;
+}
+
+.contact{
+    padding-right: 90px;
+}
+
+@media (max-width: 576px) {
+    .navbar-expand-sm{
+        flex: none;
+        justify-content:space-around;
+    }
+
+}
+   
+/* About */
+
+.firstimg{
+    height: 600px;
+    background-image: url("https://hotelux-73ff3.web.app/images/showcase.jpg");  
+    background-position: center;
+}
+
+.firstimg h1 {
+    font-size: 60px;
+    padding-bottom: 20px;
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 170px;
+    color:white;
+}
+
+.firstimg span{
+     color: #f7c08a;
+}
+
+.firstimg p{
+    text-align: center;
+    font-size: 20px;
+    color:white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.firstimg a{
+    background-color: #333333;
+    /* display: flex;
+    text-align: center;
+    width: 200px; */
+    font-size: 18px;
+    color: white;
+    background: #333;
+    margin-top: 10px;
+    margin: auto;
+    display: inline-block;
+    text-align: center;
+   /* justify-content: center; */
+   /* align-self: center; */
+   /* align-items: center; */
+    padding: 13px 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 0px;
+    text-align: center;
+}
+
+/* history */
+
+#home-info {
+    height: 450px;
+}
+.bg-dark {
+    background: #333;
+    color: white;
+}
+
+.info-img {
+    float: left;
+    width: 50%;
+    background: url(https://hotelux-73ff3.web.app/images/photo-1.jpg) no-repeat;
+    min-height: 100%;
+}
+
+.bg-dark {
+    background: #333;
+    color: white;
+}
+
+#home-info .info-content {
+    float: right;
+    width: 50%;
+    min-height: 100%;
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 50px 30px;
+    justify-content: center;
+}
+
+.history-head {
+    padding-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.history-head span{
+    color: #f7c08a;
+}
+
+.info-content p{
+    padding-bottom: 30px
+}
+
+
+.history-button a {
+    display: inline-block;
+    font-size: 18px;
+    padding: 10px 15px;
+    border-radius: 0px;
+    cursor: pointer;
+}
+
+
+@media (max-width: 768px) {
+    .info-img{
+        float: none;
+        width: 100%;
+    }
+    #home-info .info-content {
+        float: left;
+        width: 100%;
+    }   
+
+ }
+
+/* cards */
+
+.card{
+    border-radius: 0px;
+    width: 100%;
+}
+
+.first-card{
+    float: left;
+    text-align: center;
+    width: 33%;
+    padding: 50px;
+    background: #f4f4f4;
+    color: #333;
+}
+
+.sec-card{
+    float: left;
+    text-align: center;
+    width: 33.3%;
+    padding: 50px;
+    background: #f7c08a;
+    color: #333;
+}
+
+.third-card{
+    float: left;
+    text-align: center;
+    width: 33.3%;
+    padding: 50px;
+    color: #333;
+}
+
+.icon{
+    margin-bottom: 0px;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 1;
+}
+
+.card h3{
+    padding-bottom: 20px;
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.card p{
+    margin-top: -10px;
+}
+
+
+@media (max-width: 768px) {
+    .first-card{
+        float: none;
+        width: 100%;
+    }
+    .sec-card{
+        float: none;
+        width: 100%;
+        
+    }
+    .third-card{
+        width: 100%;
+       
+    }
+
+ }
+
+
+/* footer */
+
+.main-footer {
+    text-align: center;
+    background: #444;
+    color: white;
+    padding: 10px;
+}
+
+.main-footer p{
+    padding-top: 10px;
+}
